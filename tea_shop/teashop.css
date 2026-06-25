@@ -1,0 +1,130 @@
+nav{
+    justify-content: flex-end;
+    font-family: 'Helvetica', sans-serif;
+    display: inline-flex;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+body{
+    background-color: black;
+}
+h2{
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+h4{
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+.logo-container{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    height: 50px;
+}
+.breadcrumb{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.breadcrumb li a {
+    color: white;
+    text-decoration: none; 
+}
+
+.mission-container {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 1200px;           
+    height: 700px;           
+    margin: 30px auto 0 auto;          
+}
+
+.mission-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mission-text {
+    position: absolute;
+    background-color: black; 
+    width: 100%;
+    padding: 10px 0;
+}
+.tea-container {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;               
+    flex-wrap: wrap;         
+    padding: 20px;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;       
+    display: block;
+    margin: 0 auto 10px auto; 
+}
+
+.tea-item h4 {
+    margin-top: 10px;
+}
+.locations-section {
+    position: relative;
+    height: 500px;
+    width: 1200px; 
+    margin: 10px auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locations-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; 
+    z-index: -1;
+}
+
+.locations-overlay {
+    width: 100%;
+    text-align: center;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 20px;
+}
+
+.location-box {
+    background-color: black;
+    color: white;
+    width: 300px; 
+    padding: 20px;
+    opacity: 1; 
+    font-family: 'Helvetica', sans-serif;
+}
+
+.location-box h3, .location-box p {
+    margin: 10px 0;
+}
